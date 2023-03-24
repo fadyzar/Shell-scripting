@@ -9,8 +9,8 @@ echo "Hello world again"
 }
 
 
- quit(){
-exit
+quit(){
+ exit
 }
 
 Print "Fady" "zarka"
