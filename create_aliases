@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+# This script will create aliases for you
+echo 
+# aliases is very popular command that is used to cut down on lengthy and 
+# repetitive commands
+
+alias ls="ls -al"
+alias pl="pwd; ls"
+alias tell="whoami; hostname"
+alias dir="ls -l | grep ^d"
+alias lmar="ls -l |grep mar"
+alias wpa="chmod a+x"
+alias d="df -h | awk ' {print \$6} ' | cut -c1-4"
+
+
